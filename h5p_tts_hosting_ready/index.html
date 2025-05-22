@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>H5P TTS</title>
+  <link rel="stylesheet" href="h5p-standalone.min.css">
+</head>
+<body>
+  <div id="h5p-container"></div>
+
+  <script src="h5p-standalone.min.js"></script>
+  <script>
+    H5PStandalone.embed({
+      target: document.getElementById('h5p-container'),
+      contentUrl: 'h5p-content',
+      libraryUrl: 'h5p-library'
+    });
+  </script>
+</body>
+</html>
